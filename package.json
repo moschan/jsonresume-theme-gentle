@@ -5,7 +5,8 @@
   "author": "moschan <kaityo02＠gmail.com> (http://moschan.com/blog)",
   "main": "index.js",
   "scripts": {
-    "start": "resume serve"
+    "start": "gulp start",
+    "test": "resume serve"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,11 @@
   },
   "homepage": "https://github.com/moschan/jsonresume-theme-gentle#readme",
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^2.0.0-alpha.4",
+    "resume-schema": "0.0.16"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0"
   }
 }
